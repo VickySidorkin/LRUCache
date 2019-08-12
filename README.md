@@ -13,7 +13,7 @@ The cache is initialized with a positive capacity.
 
 **Remarks**
 
-•	Make your own implementation for the LRU and don’t use any library or other data structures except the basic ones (arrays, linked list, hash table, dictionary, etc.)
+•	Make your own implementation for the LRU cache and don’t use any library or other data structures except the basic ones (arrays, linked list, hash table, dictionary, etc.)
 
 •	We won’t check for bad input in any of the steps. 
 
