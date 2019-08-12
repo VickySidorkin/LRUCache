@@ -10,11 +10,13 @@ put(key, value) - Set or insert the value if the key is not already present. Whe
 The cache is initialized with a positive capacity.
 
 **Remarks**
+
 •	Make your own implementation for the LRU and don’t use any library or an    external source. 
 •	We won’t check for bad input in any of the steps. 
 •	We won’t time your implementation or test it against other implementations. But, the time complexity of your solution should be reasonable.
 
 **Bonus**
+
  Implement both operations in O(1) time complexity
 
 
