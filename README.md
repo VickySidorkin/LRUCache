@@ -14,7 +14,9 @@ The cache is initialized with a positive capacity.
 **Remarks**
 
 •	Make your own implementation for the LRU and don’t use any library or an    external source. 
+
 •	We won’t check for bad input in any of the steps. 
+
 •	We won’t time your implementation or test it against other implementations. But, the time complexity of your solution should be reasonable.
 
 
@@ -29,13 +31,21 @@ The cache is initialized with a positive capacity.
 LRUCache cache = new LRUCache( 2 /* capacity */ );
 
 cache.put(1, 1);
+
 cache.put(2, 2);
+
 cache.get(1);       // returns 1
+
 cache.put(3, 3);    // evicts key 2
+
 cache.get(2);       // returns -1 (not found)
+
 cache.put(4, 4);    // evicts key 1
+
 cache.get(1);       // returns -1 (not found)
+
 cache.get(3);       // returns 3
+
 cache.get(4);       // returns 4
 
 
